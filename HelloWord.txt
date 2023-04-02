@@ -1,6 +1,0 @@
-In informatica Hello world! (in italiano "Ciao mondo!") è un semplice programma dimostrativo
-frequentemente utilizzato nella didattica di base, che produce come risultato - output - la scritta "Hello world!" o altre varianti
-
-
-
-La scritta viene stampata a video dal primo programma di esempio scritto in C all'inizio del libro Il linguaggio C degli informatici Brian Kernighan e Dennis Ritchie. La versione corrente non è quella originale: all'inizio il testo era semplicemente "hello, world", senza maiuscola e punto esclamativo, che sono entrati nella tradizione solo in seguito.
