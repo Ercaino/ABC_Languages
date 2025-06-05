@@ -1,0 +1,54 @@
+// styles.scss
+
+$primary-color: #409EFF; // Define a variable
+
+.greeting {
+  color: $primary-color;
+  font-size: 2em;
+  text-align: center;
+  margin-top: 50px;
+}
+
+// npm install -g sass
+// sass styles.scss styles.css
+// sass --watch styles.scss styles.css
+
+
+// Simple demo
+
+// Mixin for button styling
+@mixin button-style($bg-color: #409EFF) {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  background-color: $bg-color;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.9;
+  }
+}
+
+.primary-button {
+  @include button-style();
+}
+
+.danger-button {
+  @include button-style(#ff4d4d);
+}
+
+
+// Simple demo 2
+
+$breakpoint-tablet: 768px;
+
+.container {
+  width: 100%;
+  padding: 20px;
+
+  @media (min-width: $breakpoint-tablet) {
+    max-width: 768px;
+    margin: 0 auto;
+  }
+}

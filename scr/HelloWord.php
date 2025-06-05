@@ -1,15 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello World PHP</title>
-</head>
+<html>
 <body>
-        <h1><?php echo 'Hello World!'; ?></h1>
+
+    <?php
+    // This is a simple Hello World script in PHP
+
+    echo "Hello, World!";
+    ?>
+
 </body>
 </html>
 
+<!-- php -S localhost:8000 -->
+
+<!-- Simple demo -->
+<!DOCTYPE html>
+<html>
+<body>
+
 <?php
-echo "Hello World!";
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $name = htmlspecialchars($_POST["name"]);
+    echo "<h2>Hello, $name!</h2>";
+}
 ?>
+
+<h2>Enter your name:</h2>
+<form method="post" action="<?php echo $_SERVER["PHP_SELF"]; ?>">
+    <input type="text" name="name">
+    <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>

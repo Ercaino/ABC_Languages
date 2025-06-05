@@ -1,23 +1,19 @@
-namespace HelloWorld
+// Importing the System namespace which contains fundamental classes
+using System;
+
+namespace HelloWorldApp
 {
-    class Hello {         
+    class Program
+    {
         static void Main(string[] args)
         {
-            System.Console.WriteLine("Hello World!");
+            // Print "Hello, World!" to the console
+            Console.WriteLine("Hello, World!");
         }
     }
 }
 
 /*
-using System;
- 
-namespace HelloWorld
-{
-    class Hello {         
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
-        }
-    }
-}
+    csc HelloWord.cs
+    ./HelloWord
 */

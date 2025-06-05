@@ -1,0 +1,34 @@
+message: "Hello, World!"
+
+# Simple demo
+# config.yaml
+app:
+  name: MyApp
+  version: 1.0.0
+  features:
+    - login
+    - dark_mode
+    - notifications
+
+database:
+  host: localhost
+  port: 5432
+  environments:
+    - development
+    - staging
+    - production
+
+
+# Simple demo 2
+# .github/workflows/ci.yml
+name: CI Pipeline
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Run a script
+        run: echo "Hello, World!"

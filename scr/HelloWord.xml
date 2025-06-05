@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<message>Hello, World!</message>
+
+<!-- Simple demo -->
+<?xml version="1.0" encoding="UTF-8"?>
+<employee>
+    <name>Alice</name>
+    <id>1001</id>
+    <department>Engineering</department>
+    <skills>
+        <skill>Python</skill>
+        <skill>Kotlin</skill>
+        <skill>Docker</skill>
+    </skills>
+    <active>true</active>
+</employee>

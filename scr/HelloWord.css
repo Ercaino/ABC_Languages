@@ -1,0 +1,25 @@
+body {
+    background-color: #f0f0f0; /* Light gray background */
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding-top: 100px;
+}
+
+h1 {
+    color: #333; /* Dark gray text */
+    font-size: 3em;
+}
+
+/* index.html
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<link rel="stylesheet" href="styles.css">
+		<title>Hello, World!</title>
+	</head>
+	<body>
+		<h1>Hello, World!</h1>
+	</body>
+	</html>
+
+*/

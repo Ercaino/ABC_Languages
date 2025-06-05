@@ -6,6 +6,34 @@
         <title>Hello World</title>
     </head>
     <body>
-        <div align="center">Hello World!</div>
+        <h1>Hello, World!</h1>
+        <p>Welcome to my first web page.</p>
     </body>
+</html>
+
+<!--
+    firefox index.html   # Linux
+    open -a Safari index.html  # macOS
+    start index.html     # Windows (Command Prompt)
+-->
+
+
+<!-- Simple demo -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Hello</title>
+    <script>
+        function showMessage() {
+            document.getElementById("output").innerText = "Hello, World!";
+        }
+    </script>
+</head>
+<body>
+    <h1>Click the button:</h1>
+    <button onclick="showMessage()">Show Message</button>
+    <p id="output"></p>
+</body>
 </html>
