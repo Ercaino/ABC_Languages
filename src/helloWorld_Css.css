@@ -1,0 +1,14 @@
+/* 
+   CSS Hello World
+   Note: CSS doesn't "execute" standalone. It's rendered by a browser.
+   Requirements: A web browser and an HTML file to link this CSS.
+   Usage: Add <link rel="stylesheet" href="helloWorld_Css.css"> and <p> content in HTML.
+*/
+
+body::before {
+    content: "Hello, World!";
+    display: block;
+    font-family: sans-serif;
+    padding: 20px;
+    font-size: 24px;
+}

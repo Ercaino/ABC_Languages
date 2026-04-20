@@ -1,0 +1,59 @@
+The Infamous Hello World Program.
+
+Romeo, a young man with a remarkable patience.
+Juliet, a likewise young woman of remarkable grace.
+
+                    Act I: Hamlet's insults and flattery.
+
+                    Scene I: The entrance of Romeo and Juliet.
+
+[Enter Romeo and Juliet]
+
+Romeo:
+ You are as lovely as the sum of a beautiful delicious radiant rose and a sweet flower. Speak your mind!
+
+Juliet:
+ You are as proud as the sum of a blossoming flower and a sunny day. Speak your mind!
+
+Romeo:
+ You are as sweet as the sum of a gentle rose and a blossoming flower. Speak your mind!
+
+Juliet:
+ Speak your mind!
+
+Romeo:
+ You are as sweet as a blossoming flower. Speak your mind!
+
+Juliet:
+ You are as lovely as the sum of a beautiful delicious radiant rose and a blossoming flower. Speak your mind!
+
+Romeo:
+ Speak your mind!
+
+Juliet:
+ You are as proud as the sum of a blossoming flower and a beautiful flower. Speak your mind!
+
+Romeo:
+ Speak your mind!
+
+Juliet:
+ You are as proud as the sum of a blossoming flower and a flower. Speak your mind!
+
+Romeo:
+ Speak your mind!
+
+Juliet:
+ You are as proud as a blossoming flower. Speak your mind!
+
+[Exeunt]
+
+/*
+ * helloWorld_Shakespeare.spl
+ * A simple "Hello, World!" program in Shakespeare Programming Language.
+ *
+ * Requirements:
+ * - SPL compiler/interpreter (e.g., spl2c)
+ *
+ * Execution:
+ * spl helloWorld_Shakespeare.spl
+ */

@@ -1,0 +1,10 @@
+<!--
+    Language: XML (Extensible Markup Language)
+    Purpose: Represent a "Hello, World!" message in a structured format
+    Requirements: Any XML parser or web browser
+    Execution: Open the file in a browser or parse it with an XML library
+-->
+<?xml version="1.0" encoding="UTF-8"?>
+<greeting>
+    <message>Hello, World!</message>
+</greeting>

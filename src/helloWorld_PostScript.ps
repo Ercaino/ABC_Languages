@@ -1,0 +1,19 @@
+%!PS
+% PostScript Hello World
+% Requirements: Ghostscript (gs)
+% Execution: gs -q -dNOPAUSE -dBATCH -sDEVICE=nullpage helloWorld_PostScript.ps
+
+% Set font to Helvetica, size 12
+/Helvetica findfont 12 scalefont setfont
+
+% Move to coordinates (100, 100)
+100 100 moveto
+
+% Show the string
+(Hello, World!) show
+
+% Print to standard output (CLI friendly)
+(Hello, World!\n) print
+
+% Finalize page
+showpage

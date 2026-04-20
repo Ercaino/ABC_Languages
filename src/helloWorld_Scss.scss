@@ -1,0 +1,19 @@
+/*
+ * Hello World in SCSS
+ * 
+ * Requirements:
+ * - Sass (npm install -g sass)
+ * 
+ * Execution:
+ * - Compile to CSS: sass helloWorld_Scss.scss helloWorld_Scss.css
+ */
+
+$greeting: "Hello, World!";
+
+body::before {
+  content: $greeting;
+  display: block;
+  text-align: center;
+  font-size: 2em;
+  margin-top: 20px;
+}

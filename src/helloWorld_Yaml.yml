@@ -1,0 +1,7 @@
+# Language: YAML (YAML Ain't Markup Language)
+# Purpose: Represent a "Hello, World!" message in a human-readable data format
+# Requirements: A YAML parser (e.g., PyYAML for Python)
+# Execution: Load the file using a YAML library in your preferred language
+
+greeting:
+  message: "Hello, World!"

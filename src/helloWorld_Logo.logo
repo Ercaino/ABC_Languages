@@ -1,0 +1,11 @@
+; Hello World in Logo
+;
+; Requirements:
+; - A Logo interpreter (like UCBLogo or MSWLogo).
+;
+; Execution:
+; - Load the file in the interpreter and run it, or:
+; - logo helloWorld_Logo.logo
+
+; PRINT (or PR) outputs text followed by a newline
+PRINT [Hello, World!]

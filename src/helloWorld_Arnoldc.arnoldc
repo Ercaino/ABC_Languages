@@ -1,0 +1,6 @@
+IT'S SHOWTIME
+TALK TO THE HAND "Hello, World!"
+YOU HAVE BEEN TERMINATED
+
+// Requirements: ArnoldC Compiler (requires Java)
+// Run Command: java -jar ArnoldC.jar helloWorld_Arnoldc.arnoldc

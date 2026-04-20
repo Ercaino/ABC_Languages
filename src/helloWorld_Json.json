@@ -1,0 +1,6 @@
+{
+  "description": "Hello World in JSON (Data representation)",
+  "requirements": "Any JSON parser or browser",
+  "execution": "Read this file using a JSON library or `cat helloWorld_Json.json`",
+  "message": "Hello, World!"
+}

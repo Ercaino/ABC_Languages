@@ -1,0 +1,19 @@
+/*
+ * Hello World in Less
+ * 
+ * Requirements:
+ * - Less.js (npm install -g less)
+ * 
+ * Execution:
+ * - Compile to CSS: lessc helloWorld_Less.less helloWorld_Less.css
+ */
+
+@greeting: "Hello, World!";
+
+body::before {
+  content: @greeting;
+  display: block;
+  text-align: center;
+  font-size: 2em;
+  margin-top: 20px;
+}
